@@ -1,3 +1,4 @@
+Time spent on the exercise: ~4h.
 # Pokémon List
 
 This project is a web application that displays a list of Pokémon using the [PokéAPI](https://pokeapi.co/). It allows users to filter Pokémon by type and navigate through pages of results. The application is built using Next.js with TypeScript and styled using Tailwind CSS.
