@@ -10,8 +10,6 @@ This project is a web application that displays a list of Pokémon using the [Po
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
