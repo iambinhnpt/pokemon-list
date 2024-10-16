@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pokémon List
 
-## Getting Started
+This project is a web application that displays a list of Pokémon using the [PokéAPI](https://pokeapi.co/). It allows users to filter Pokémon by type and navigate through pages of results. The application is built using Next.js with TypeScript and styled using Tailwind CSS.
 
-First, run the development server:
+## Table of Contents
 
-```bash
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Fetch and display a list of Pokémon.
+- Filter Pokémon by type.
+- Pagination for navigating through multiple pages of Pokémon.
+- Responsive design using Tailwind CSS.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - A React framework for server-rendered applications.
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for building custom designs.
+- [PokéAPI](https://pokeapi.co/) - A RESTful API for accessing Pokémon data.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/iambinhnpt/pokemon-list.git
+   cd pokemon-list
+
+	2.	Install dependencies:
+
+npm install
+
+
+	3.	Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+	4.	Open your browser and navigate to http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Usage
 
-## Learn More
+	•	The main page displays a list of Pokémon, showing their names and images.
+	•	Use the type filter buttons to view Pokémon of specific types.
+	•	Navigate through pages using the Previous and Next buttons.
 
-To learn more about Next.js, take a look at the following resources:
+Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+pokemon-list/
+├── app/
+│   ├── pokemon-list/
+│   │   ├── page.tsx           # Server component for fetching and displaying Pokémon
+│   │   ├── PokemonList.tsx    # Client component for rendering the Pokémon list
+│   ├── global.css              # Global styles
+│   ├── layout.tsx              # Main layout component
+├── public/
+│   └── images/                 # Public images (if any)
+├── README.md                   # Project documentation
+└── package.json                # Project metadata and dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you have suggestions for improvements or find bugs, feel free to open an issue or submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Instructions for Customization:
+1. **Repository URL**: Replace `https://github.com/iambinhnpt/pokemon-list.git` with the actual URL of your GitHub repository.
+2. **Features**: You can expand or modify the features section as you add more functionalities to the application.
+3. **Project Structure**: Ensure that the directory structure accurately reflects your project organization.
+
+This README should provide a clear and comprehensive overview of your project for any users or contributors. Let me know if you need any further modifications!
