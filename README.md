@@ -66,18 +66,3 @@ pokemon-list/
 │   └── images/                 # Public images (if any)
 ├── README.md                   # Project documentation
 └── package.json                # Project metadata and dependencies
-
-Contributing
-
-Contributions are welcome! If you have suggestions for improvements or find bugs, feel free to open an issue or submit a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-### Instructions for Customization:
-1. **Repository URL**: Replace `https://github.com/iambinhnpt/pokemon-list.git` with the actual URL of your GitHub repository.
-2. **Features**: You can expand or modify the features section as you add more functionalities to the application.
-3. **Project Structure**: Ensure that the directory structure accurately reflects your project organization.
-
-This README should provide a clear and comprehensive overview of your project for any users or contributors. Let me know if you need any further modifications!
